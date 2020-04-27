@@ -3,7 +3,7 @@ version: '2'
 services:
   master:
     build: ./jmeter-master
-    container_name: master
+    container_name: jmaster
     tty: true
     networks:
       - jmeter-network
